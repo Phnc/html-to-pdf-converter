@@ -3,6 +3,7 @@ const puppeteer = require('puppeteer');
 module.exports = function(app){
     app.post("/api/Html/convert/pdf", async (req, res) => {
         const id = req.body.id;
+        console.log(req.body);
         let htmlString = req.body.content;
         htmlString = htmlString.replace("http://sir.", "http://wssir.");
         htmlString = htmlString.replace("http://sir.", "http://wssir.");
