@@ -1,0 +1,25 @@
+{
+  "name": "pdfconverter",
+  "version": "1.0.0",
+  "description": "A simple html to PDF converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "convert"
+  ],
+  "author": "Paulo Cavalcanti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "puppeteer": "^13.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
